@@ -631,6 +631,7 @@ button:focus {
 }
 .hero-slider .slick-dots {
   bottom: 20px;
+  display: none;
 }
 .hero-slider .slick-dots li {
   margin: 0 3px;

@@ -3321,7 +3321,8 @@ button:focus {
   }
 }
 .header-uper .logo h2 a {
-  color: #48bdc5;
+  color: #222222; /* Dark grey, similar to other headings */
+  text-decoration: none; /* Remove underline */
 }
 
 /*# sourceMappingURL=style.css.map */

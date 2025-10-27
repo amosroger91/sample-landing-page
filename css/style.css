@@ -365,7 +365,7 @@ li {
 .navbar .navbar-nav li > .nav-link {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
-  color: #fff;
+  color: #48bdc5;
   text-transform: uppercase;
   padding: 13px 18px !important;
   transition: 0.3s;
@@ -377,13 +377,13 @@ li {
   }
 }
 .navbar .navbar-nav li > .nav-link:hover {
-  color: #fff;
+  color: #3a969c;
   opacity: 0.7;
 }
 .navbar .navbar-nav li.active > a {
   background: transparent;
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .navbar .navbar-nav li.active > a:hover {
   background: transparent;

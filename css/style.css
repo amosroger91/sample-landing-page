@@ -2624,7 +2624,7 @@ button:focus {
   position: relative;
   background-size: cover;
   z-index: 1;
-  background: #132646;
+  background: #183f42;
 }
 .footer-main .footer-top {
   padding-top: 85px;
@@ -2779,7 +2779,7 @@ button:focus {
 
 .footer-bottom {
   padding: 24px 0px;
-  background: #0d1a2f;
+  background: #183f42;
 }
 .footer-bottom .copyright-text {
   float: left;

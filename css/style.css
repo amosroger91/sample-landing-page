@@ -3320,4 +3320,8 @@ button:focus {
     left: 10px !important;
   }
 }
+.header-uper .logo h2 a {
+  color: #48bdc5;
+}
+
 /*# sourceMappingURL=style.css.map */

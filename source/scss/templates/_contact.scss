@@ -1,3 +1,21 @@
+.contact-page-title {
+  background-image: url(new-images/elderly-man-cared-for-by-two-individuals-5760x3840.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+
+  h1 {
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white !important;
+  }
+}
+
+.contents-padding {
+  padding-top: 25px;
+}
+
 .map{
   position: relative;
   #map{

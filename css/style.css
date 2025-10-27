@@ -1,7 +1,8 @@
+/* Cache Buster v2024-10-27 */
 /**
  * WEBSITE: https://themefisher.com
  * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
+ * FACEBOOK: https://facebook.com/themefisher
  * GITHUB: https://github.com/themefisher/
  */
 
@@ -310,6 +311,22 @@ li {
     margin: 0 20px;
   }
 }
+
+@media (max-width: 767px) {
+  .header-uper .contact-info {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .header-uper .contact-info .item {
+    display: block;
+    padding-left: 0;
+    margin: 0 0 15px 0;
+    text-align: center;
+  }
+}
 .header-uper .contact-info .item {
   position: relative;
   display: inline-block;
@@ -383,7 +400,7 @@ li {
 .navbar .navbar-nav li.active > a {
   background: transparent;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .navbar .navbar-nav li.active > a:hover {
   background: transparent;
@@ -417,7 +434,6 @@ li {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
   .navbar .dropdown:hover > .dropdown-menu {
     opacity: 1;
     visibility: visible;
@@ -631,7 +647,6 @@ button:focus {
 }
 .hero-slider .slick-dots {
   bottom: 20px;
-  display: none;
 }
 .hero-slider .slick-dots li {
   margin: 0 3px;
@@ -683,7 +698,7 @@ button:focus {
   padding-top: 20px;
 }
 .cta .cta-block .top-doctor {
-  background: #5bc4cb;
+  background: rgb(91.3630705394, 195.9834024896, 203.1369294606);
 }
 .cta .cta-block .top-doctor .btn-main {
   margin-top: 10px;
@@ -697,7 +712,7 @@ button:focus {
   color: #48bdc5;
 }
 .cta .cta-block .working-time {
-  background: #6fcbd1;
+  background: rgb(110.7261410788, 202.9668049793, 209.2738589212);
 }
 .cta .cta-block .working-time ul {
   margin: 0;
@@ -736,6 +751,23 @@ button:focus {
 .cta .cta-block .item p {
   font-size: 16px;
   line-height: 25px;
+}
+
+.contact-page-title {
+  background-image: url(new-images/elderly-man-cared-for-by-two-individuals-5760x3840.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.contact-page-title h1 {
+  padding-left: 50px;
+  padding-top: 20px;
+  color: white !important;
+}
+
+.contents-padding {
+  padding-top: 25px;
 }
 
 .map {
@@ -803,15 +835,15 @@ button:focus {
 .feature-section {
   position: relative;
 }
-.feature-section .image-content .section-title {
-  margin-bottom: 20px;
-}
 .feature-section .image-content .section-title h3 {
   position: relative;
   padding-bottom: 15px;
 }
 .feature-section .image-content .section-title p {
   margin-bottom: 40px;
+}
+.feature-section .image-content .section-title {
+  margin-bottom: 20px;
 }
 .feature-section .image-content .item {
   position: relative;
@@ -911,7 +943,7 @@ button:focus {
   font-size: 20px;
   padding: 10px 25px;
   font-weight: 600;
-  color: #4d4d4d;
+  color: rgb(76.5, 76.5, 76.5);
   font-family: "Source Sans Pro", sans-serif;
   border: 2px solid #48bdc5;
   border-radius: 0;
@@ -1001,6 +1033,14 @@ button:focus {
   position: absolute;
   left: 0;
   top: 9px;
+}
+
+.amenities-page-title {
+  background-image: url(new-images/elderly-man-cared-for-by-two-individuals-5760x3840.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0;
 }
 
 .service-section {
@@ -1606,7 +1646,7 @@ button:focus {
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
-  color: #1a1a1a;
+  color: rgb(25.5, 25.5, 25.5);
 }
 .testimonial-section .inner-box .image-box {
   position: absolute;
@@ -1990,11 +2030,11 @@ button:focus {
 .blog-section.style-five .content-text .text {
   margin-top: 10px;
 }
-.blog-section.style-five .content-text .image-side {
-  margin-right: 40px;
-}
 .blog-section.style-five .content-text .image-side img {
   width: 100%;
+}
+.blog-section.style-five .content-text .image-side {
+  margin-right: 40px;
 }
 .blog-section.style-five .item-title h6 {
   font-size: 18px;
@@ -2263,6 +2303,26 @@ button:focus {
 @media (max-width: 991px) {
   .story .story-content {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .story {
+    padding: 50px 0;
+  }
+  .story .story-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .story .story-content .tagline {
+    font-size: 16px;
+  }
+  .story .story-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .story .story-content h6 {
+    font-size: 16px;
   }
 }
 .story .story-content h2 {
@@ -2624,7 +2684,7 @@ button:focus {
   position: relative;
   background-size: cover;
   z-index: 1;
-  background: #183f42;
+  background: #2a5f66;
 }
 .footer-main .footer-top {
   padding-top: 85px;
@@ -2779,7 +2839,7 @@ button:focus {
 
 .footer-bottom {
   padding: 24px 0px;
-  background: #183f42;
+  background: #1a3d43;
 }
 .footer-bottom .copyright-text {
   float: left;
@@ -2872,7 +2932,7 @@ button:focus {
 /*  Theme HTML Template */
 @media only screen and (min-width: 768px) {
   .main-menu .navigation > li > ul,
-.main-menu .navigation > li > ul > li > ul {
+  .main-menu .navigation > li > ul > li > ul {
     display: block !important;
     visibility: hidden;
     opacity: 0;
@@ -2888,22 +2948,18 @@ button:focus {
   .service-section .filter {
     margin-bottom: 20px !important;
   }
-
   .footer-bottom .copyright-text {
     float: none !important;
     text-align: center;
     margin-bottom: 20px;
   }
-
   .footer-bottom .footer-bottom-link {
     float: none !important;
     text-align: center;
   }
-
   .feature-section.style-two {
     margin-bottom: 0px !important;
   }
-
   .feature-section .contact-info .item {
     display: block !important;
     margin-bottom: 20px !important;
@@ -2913,117 +2969,109 @@ button:focus {
   .main-header .search-box {
     display: none;
   }
-
   .header-uper .logo {
     float: none !important;
+    text-align: center;
     margin-bottom: 20px;
     width: 100%;
   }
-
   .main-header.style-two .logo {
     float: none !important;
     text-align: center;
     margin-bottom: 20px;
   }
-
   .main-header.style-two .search-box-btn {
     top: 95px !important;
   }
-
   .main-header.style-two .main-menu {
     float: none !important;
   }
-
   .service-tab-section .tab-content .inner-box {
     padding-left: 0px;
   }
-
   .feature-section .contact-info .item {
     width: 100%;
     margin-right: 30px !important;
     margin-bottom: 20px !important;
   }
-
   .service-tab-section .tab-list-column {
     width: 100% !important;
   }
-
   .service-tab-section .tab-list-column .tab-list,
-.service-tab-section .tab-content .inner-box {
+  .service-tab-section .tab-content .inner-box {
     float: none !important;
     padding-left: 115px !important;
     max-width: 700px !important;
   }
-
   .service-tab-section .tab-content {
     width: 100% !important;
   }
-
   .service-tab-section .tab-content .content-list {
     margin-top: 40px !important;
   }
-
   .fact-counter .column .item {
     margin-bottom: 40px !important;
   }
-
   .contact-area {
     margin-top: 70px !important;
     padding-left: 0px !important;
   }
-
   .contact-area.style-two {
     margin-top: 0 !important;
   }
-
   .footer-main .footer-top .social-links {
     margin-left: 0px !important;
   }
-
   .blog-section.style-four .content-text {
     padding-left: 0px !important;
   }
-
   .blog-section.style-four .right-side {
     margin-left: 0px !important;
     margin-top: 40px !important;
   }
-
   .blog-section.style-four .left-side {
     margin-right: 0px !important;
   }
-
   .blog-section.style-four .image-box img {
     width: 100%;
   }
-
   .blog-section.style-five .text-image {
     margin-left: 0px !important;
     margin-top: 40px !important;
   }
-
   .service-details .right-side {
     margin-left: 0px !important;
   }
-
   .gallery-section .owl-theme .owl-controls .owl-nav .owl-prev {
     left: 90px !important;
   }
-
   .gallery-section .owl-theme .owl-controls .owl-nav .owl-next {
     right: 90px !important;
   }
-
   .feature-section.style-two {
     margin-bottom: 40px !important;
   }
 }
+@media only screen and (max-width: 991px) {
+  .hero-slider {
+    height: 60vh;
+  }
+  .hero-slider .slider-item {
+    height: 60vh;
+  }
+}
+
 @media only screen and (max-width: 767px) {
+  .hero-slider {
+    height: 50vh;
+  }
+  .hero-slider .slider-item {
+    height: 50vh;
+  }
   .main-header .main-menu {
     top: 0px;
     width: 100%;
   }
-
   .main-menu .navbar-header {
     position: relative;
     float: none;
@@ -3034,7 +3082,6 @@ button:focus {
     right: 0px;
     z-index: 12;
   }
-
   .main-menu .navbar-header .navbar-toggle {
     display: block;
     border: 1px solid #ffffff;
@@ -3047,11 +3094,9 @@ button:focus {
     border-radius: 0px;
     background: #7b64cb;
   }
-
   .main-menu .navbar-header .navbar-toggle .icon-bar {
     background: #ffffff;
   }
-
   .main-menu .navbar-collapse > .navigation {
     float: none !important;
     margin: 0px !important;
@@ -3060,35 +3105,30 @@ button:focus {
     border: 1px solid #ffffff;
     border-top: none;
   }
-
   .main-menu .navbar-collapse > .navigation > li {
     margin: 0px !important;
     float: none !important;
     width: 100%;
   }
-
   .main-menu .navigation > li > a,
-.main-menu .navigation > li > ul:before {
+  .main-menu .navigation > li > ul:before {
     border: none;
   }
-
   .main-menu .navbar-collapse > .navigation > li > a {
     padding: 10px 10px !important;
     border: none !important;
   }
-
   .main-menu .navigation li.dropdown > a:after,
-.main-menu .navigation > li.dropdown > a:before,
-.main-menu .navigation > li > ul > li > a::before,
-.main-menu .navigation > li > ul > li > ul > li > a::before {
+  .main-menu .navigation > li.dropdown > a:before,
+  .main-menu .navigation > li > ul > li > a::before,
+  .main-menu .navigation > li > ul > li > ul > li > a::before {
     color: #ffffff !important;
     right: 15px;
     font-size: 16px;
     display: none !important;
   }
-
   .main-menu .navbar-collapse > .navigation > li > ul,
-.main-menu .navbar-collapse > .navigation > li > ul > li > ul {
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul {
     position: relative;
     border: none;
     float: none;
@@ -3108,60 +3148,51 @@ button:focus {
     -o-transition: none !important;
     -moz-transition: none !important;
   }
-
   .main-menu .navbar-collapse > .navigation > li > ul,
-.main-menu .navbar-collapse > .navigation > li > ul > li > ul {
-    border-top: 1px solid white !important;
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul {
+    border-top: 1px solid rgb(255, 255, 255) !important;
   }
-
   .main-menu .navbar-collapse > .navigation > li,
-.main-menu .navbar-collapse > .navigation > li > ul > li,
-.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li {
-    border-top: 1px solid white !important;
+  .main-menu .navbar-collapse > .navigation > li > ul > li,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li {
+    border-top: 1px solid rgb(255, 255, 255) !important;
     opacity: 1 !important;
     top: 0px !important;
     left: 0px !important;
     visibility: visible !important;
   }
-
   .main-menu .navbar-collapse > .navigation > li:first-child {
     border: none;
   }
-
   .main-menu .navbar-collapse > .navigation > li > a,
-.main-menu .navbar-collapse > .navigation > li > ul > li > a,
-.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a {
+  .main-menu .navbar-collapse > .navigation > li > ul > li > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a {
     padding: 15px 10px !important;
     line-height: 22px;
     color: #ffffff;
     background: #7b64cb;
     text-align: left;
   }
-
   .main-header.style-two .main-menu .navigation > li > a {
     color: #ffffff !important;
   }
-
   .main-menu .navbar-collapse > .navigation > li > a:hover,
-.main-menu .navbar-collapse > .navigation > li > a:active,
-.main-menu .navbar-collapse > .navigation > li > a:focus {
+  .main-menu .navbar-collapse > .navigation > li > a:active,
+  .main-menu .navbar-collapse > .navigation > li > a:focus {
     background: #1cc9ce;
   }
-
   .main-menu .navbar-collapse > .navigation > li:hover > a,
-.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
-.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
-.main-menu .navbar-collapse > .navigation > li.current > a,
-.main-menu .navbar-collapse > .navigation > li.current-menu-item > a {
+  .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+  .main-menu .navbar-collapse > .navigation > li.current > a,
+  .main-menu .navbar-collapse > .navigation > li.current-menu-item > a {
     background: #48bdc5;
     color: #fff !important;
   }
-
   .main-menu .navbar-collapse > .navigation li.dropdown:after,
-.main-menu .navigation > li > ul:before {
+  .main-menu .navigation > li > ul:before {
     display: none !important;
   }
-
   .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn {
     display: block;
     position: absolute;
@@ -3169,106 +3200,83 @@ button:focus {
     top: 12px;
     color: #ffffff;
   }
-
   .main-menu .navbar-collapse > .navigation li.current .dropdown-btn,
-.main-menu .navbar-collapse > .navigation li:hover .dropdown-btn {
+  .main-menu .navbar-collapse > .navigation li:hover .dropdown-btn {
     color: #ffffff;
   }
-
   .main-header {
     margin-bottom: 0px !important;
   }
-
   .main-header .logo {
     position: absolute !important;
     top: -5px;
     left: 30%;
   }
-
   .search_option {
     position: absolute !important;
     top: 2px;
     right: 5px;
   }
-
   .footer-main .footer-top .menu-link {
     margin-left: 0px !important;
   }
-
   .main-header.style-two .search-box-btn {
     top: 15px !important;
   }
-
   .footer-main .footer-top .gallery-widget {
     margin-left: 0px !important;
   }
-
   .service-tab-section .tab-list-column .tab-list,
-.service-tab-section .tab-content .inner-box {
+  .service-tab-section .tab-content .inner-box {
     margin-left: 0px !important;
   }
-
   .rev_slider_wrapper .tp-caption img {
     display: none;
   }
-
   .header-uper .right-side {
     float: none !important;
     text-align: center !important;
   }
-
   .header-uper .contact-info {
     float: none !important;
     margin-bottom: 30px !important;
   }
-
   .header-uper .logo {
     margin-bottom: 40px !important;
   }
-
   .header-uper .contact-info .item {
     text-align: left !important;
     margin-left: 40px !important;
     margin-right: 0px !important;
   }
-
   .header-uper .link-btn {
     float: none !important;
     margin-left: 0px !important;
   }
-
   .gallery-section .owl-theme .owl-controls {
     display: none !important;
   }
-
   .work-skill .knob {
     display: inline-block !important;
   }
-
   .work-skill .skills h6 {
     margin-bottom: 40px;
   }
-
   .service-two .social-links li .border-shep {
     display: none !important;
   }
-
   .service-two .social-links li {
     margin-bottom: 20px;
   }
-
   .service-two .link-buttons li {
     margin-bottom: 20px;
   }
-
   .service-two .left-side {
     padding: 50px 0px !important;
   }
-
   .fixed-header {
     background: #000000 !important;
   }
-
   .google-map-area {
     margin-right: 0px !important;
   }
@@ -3279,19 +3287,16 @@ button:focus {
     padding-left: 0px !important;
     margin-top: 20px !important;
   }
-
   .header-uper .contact-info {
     margin-bottom: 0px !important;
   }
-
   .header-uper .contact-info .item {
     margin-left: 10px !important;
     margin-right: 10px !important;
     margin-bottom: 30px !important;
   }
-
   .service-tab-section .tab-list-column .tab-list,
-.service-tab-section .tab-content .inner-box {
+  .service-tab-section .tab-content .inner-box {
     padding-left: 20px !important;
   }
 }
@@ -3299,13 +3304,11 @@ button:focus {
   .rev_slider_wrapper .tp-caption {
     display: none !important;
   }
-
   .main-header .logo {
     position: relative !important;
     top: 0px !important;
     left: 0px !important;
   }
-
   .main-header.style-two .search-box-btn {
     top: 95px !important;
   }
@@ -3315,33 +3318,22 @@ button:focus {
     padding-left: 50px !important;
     padding-right: 0px !important;
   }
-
   .feature-section .contact-info .icon-box {
     left: 10px !important;
   }
 }
-.header-uper .logo h2 a {
-  color: #222222; /* Dark grey, similar to other headings */
-  text-decoration: none; /* Remove underline */
+.page-title-custom-class {
+  padding-left: 20vw;
+  padding-top: 20px;
+  color: white !important;
 }
 
-#navbarLinks {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.header-uper .logo h1 {
-  font-size: 36px; /* Big size for Antlers Manor */
-  line-height: 1.2;
-  color: #222222; /* Dark grey */
-  font-weight: 700;
-}
-
-.header-uper .logo h1 small {
-  font-size: 18px; /* Small size for Nursing Center */
-  line-height: 1.2;
-  color: #222222; /* Dark grey */
-  font-weight: 400;
+.page-title-section-custom {
+  background-image: url(new-images/elderly-man-cared-for-by-two-individuals-5760x3840.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

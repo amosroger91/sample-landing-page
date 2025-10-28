@@ -2,7 +2,7 @@
   "name": "medic",
   "version": "1.0.0",
   "description": "medic free bootstrap medical template",
-  "author": "Themefisher",
+  "author": "Roger Amos",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",

@@ -36,22 +36,10 @@ var path = {
 gulp.task("html", function () {
   return gulp
     .src(path.src.html)
-    .pipe(
-      fileinclude({
-        basepath: path.src.incdir,
-        context: {
-          version: "premium",
-        },
-      })
-    )
-    .pipe(
       comments(`
-    WEBSITE: https://themefisher.com
-    TWITTER: https://twitter.com/themefisher
-    FACEBOOK: https://facebook.com/themefisher
-    GITHUB: https://github.com/themefisher/
+    WEBSITE: https://kscomputing.biz
+    GITHUB: https://github.com/amosroger91/
     `)
-    )
     .pipe(gulp.dest(path.build.dir))
     .pipe(
       bs.reload({
@@ -71,15 +59,10 @@ gulp.task("scss", function () {
       }).on("error", sass.logError)
     )
     .pipe(autoprefixer())
-    .pipe(sourcemaps.write("/"))
-    .pipe(
       comments(`
-    WEBSITE: https://themefisher.com
-    TWITTER: https://twitter.com/themefisher
-    FACEBOOK: https://facebook.com/themefisher
-    GITHUB: https://github.com/themefisher/
+    WEBSITE: https://kscomputing.biz
+    GITHUB: https://github.com/amosroger91/
     `)
-    )
     .pipe(gulp.dest(path.build.dir + "css/"))
     .pipe(
       bs.reload({
@@ -101,10 +84,8 @@ gulp.task("js", function () {
     .on("error", gutil.log)
     .pipe(
       comments(`
-    WEBSITE: https://themefisher.com
-    TWITTER: https://twitter.com/themefisher
-    FACEBOOK: https://facebook.com/themefisher
-    GITHUB: https://github.com/themefisher/
+    WEBSITE: https://kscomputing.biz
+    GITHUB: https://github.com/amosroger91/
     `)
     )
     .pipe(gulp.dest(path.build.dir + "js/"))

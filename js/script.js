@@ -1,8 +1,8 @@
 /**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
+ * WEBSITE: https://kscomputing.biz
+ * 
+ * GITHUB: https://github.com/amosroger91
+ * GITHUB: https://github.com/KSComputing/
  */
 
 (function ($) {
